@@ -1,0 +1,54 @@
+
+
+#titulo{
+    text-align: left;
+}
+.Volver{
+    visibility: hidden;
+}
+.ubicacion{
+    display: flex;
+    float: right;
+}
+@media screen and (max-width: 767px) {
+    .migasPan{
+        margin-top: 30px;
+        margin-right: auto; 
+        margin-left: 40px;
+        font-size: 10px;
+    }
+    p{
+        float: right;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        font-size: 15px;
+    
+    }
+    .card{
+        text-align: left;
+        margin-left:auto;
+    }
+    #wrapper{
+        display: none;
+        margin-left: -10rem;
+     
+    }
+    .d-flex{
+        display: none;
+    }
+    #sidebar-wrapper{
+    visibility: hidden;
+    display:none;
+    }
+    .Volver{
+    visibility: visible;
+    }
+    .Volver a{
+        text-decoration:none;
+    }
+    .ubicacion iframe{
+        width: 100px;
+        height: 100px;
+    }
+    }
